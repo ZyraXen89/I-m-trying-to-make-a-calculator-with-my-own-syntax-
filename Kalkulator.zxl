@@ -1,0 +1,46 @@
+/* MEMBUAT KALKULATOR SEDERHANA MENGGUNAKAN ZXL :V /*
+
+function(tambah) {
+    (x, y) return [x + y]
+    };
+    
+function(kurang) {
+    (x, y) return [x - y]
+    };
+    
+function(kali) {
+    (x, y) return [x * y]
+    };
+    
+function(bagi) {
+    (x, y) return [x / y]
+    };
+    
+title.say("Operasi")
+title.say("1. Tambah");
+title.say("2. Kurang");
+title.say("3. Kali");
+title.say("4. Bagi");
+
+while True:
+    choice = title.showInput[type=string], printInput("Masukkan operasi: ");
+    if choice in ("1", "2", "3", "4"):
+        num1 = title.showInput[type=float], printInput("Masukkan angka pertama");
+        num2 = title.showInput[type=float], printInput("Masukkan angka kedua");
+        
+        if choice == 1:
+        title.say(no1, "+", no2), "=", tambah(num1, num2);
+        
+        elif choice == 2:
+        title.say(no1, "-", no2), "=", kurang(num1, num2);
+        
+        elif choice == 3:
+        title.say(no1, "*", no2), "=", kali(num1, num2);
+        
+        elif choice == 4:
+        title.say(no1, "/", no2), "=", bagi(num1, num2);
+        
+        again = title.showInput[type:string], printInput("Apakah mau diulangi?(y/g): ")
+        
+        if again == g or ..\ == G:
+            loop
